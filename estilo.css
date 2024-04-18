@@ -175,7 +175,11 @@
     transition: 0.5s;
 }
 
-.footer{
-    background-color: darksalmon;
-    position: fixed;
+.foot {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    position:static;
 }
