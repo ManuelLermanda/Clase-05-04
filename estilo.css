@@ -174,3 +174,8 @@
     transform: scale(1.2);
     transition: 0.5s;
 }
+
+.footer{
+    background-color: darksalmon;
+    position: fixed;
+}
