@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--nav para menús-->
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="#inicio">Inicio</a>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#progra">Programacion</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </li>
+        </ul>
+    </nav>
+    <!--header para encabezado hero-->
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Programación FrontEnd</h1>
+            <h2>Página de Programación</h2>
+        </div>
+    </header>
+    <!--seccion para info-->
+    <section class="info" id="info">
+        <div class="contenedor">
+            <h2 class="titulo">Información Relevante</h2>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui recusandae cum eaque, sunt, neque veritatis odit, vel ducimus eius perspiciatis quaerat omnis illo excepturi ut sit. Iure, quasi labore.</p>
+        </div>
+    </section>
+    <!--seccion para cartas-->
+    <section class="contenedor" id="progra">
+        <h2 class="titulo">Programacion Web</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-airplane-engines-fill"></i>
+                </div>
+                <h3 class="titulo-card">HTML</h3>
+                <p>Aprende sobre Html</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-incognito"></i>
+                </div>
+                <h3 class="titulo-card">CSS</h3>
+                <p>Aprende sobre CSS</p>
+                <a href="" class="boton">Leer más</a>
+            </article>
+            <article class="card">
+                <div class="margen-icon">
+                    <i class="bi bi-filetype-js"></i>
+                </div>
+                <h3 class="titulo-card">Javascript</h3>
+                <p>Aprende sobre JAVASCRIPT</p>
+                <a href=""class="boton">Leer más</a>
+            </article>
+        </div>
+        <!-- galeria -->
+    </section class>
+    <section class="galeria" id="galeria">
+        <h2 class="titulo">Galeria</h2>
+        <div class="contenedor-galeria">
+            <img src="imagen1.jpg" alt="">
+            <img src="imagen2.jpg" alt="">
+            <img src="imagen3.avif" alt="">
+            <img src="imagen4.jpg" alt="">
+            <img src="imagen5.aSjW3Q8YS9B4cJ7qHRAv" alt="">
+            <img src="imagen6.jpg" alt="">
+            <img src="imagen7.webp" alt="">
+            <img src="imagen8.jpg" alt="">
+
+
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <div class="contenedor">
+            <h2 class="titulo"> Formulario de Contacto</h2>
+            <form class="formulario">
+                <input type="text" id="nombre" name="nombre" class="input input-ancho" placeholder="Ingresa nombre">
+                <input type="text" id="email" name="email" class="input input-ancho" placeholder="Ingresa email">
+                <textarea name="msj" id="msj" class="input textarea-ancho" placeholder="Ingresa Mensaje" rows="5"></textarea>
+                <input type="reset" value="Limpiar" class="boton input-ancho">
+                <input type="submit" value="Enviar" class="boton input-ancho">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <section class="titulo">
+            <h6>¿Quieres saber más? Contáctate conmigo</h6>    
+        </section>
+        <!--poner datos personales (nombre, mail, fono, direccion, añadir estilos y un icono al lado de cada dato)-->
+    </footer>
+</body>
+</html>
